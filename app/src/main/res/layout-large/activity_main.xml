@@ -33,16 +33,18 @@
         android:paddingTop="8dp"
         android:text="Email"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="39dp"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintStart_toStartOf="@+id/name"
         tools:layout_editor_absoluteY="342dp" />
 
     <TextView
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        tools:layout_editor_absoluteX="255dp"
-        tools:layout_editor_absoluteY="342dp"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        tools:layout_editor_absoluteY="297dp"
         tools:text="Email Address" />
 
     <TextView
